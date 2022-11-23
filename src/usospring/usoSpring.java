@@ -10,7 +10,7 @@ public class usoSpring {
         Informe emp2 = context.getBean("directorMarketing", DirectorMarketing.class);
         Informe emp3 = context.getBean("directorFinanciero", DirectorFinanciero.class);
 
-        //Comprobando como trabaja Spring con dos objetos diferentes pero tres instancias.
+        //Comprobando como trabaja Spring con dos objetos diferentes pero tres instancias. Con la anotacion @Scope.
 
         System.out.println("El informe fue" + emp1.getDocument());
         System.out.println("El informe fue" + emp2.getDocument());

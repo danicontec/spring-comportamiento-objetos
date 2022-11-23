@@ -8,4 +8,9 @@ Esta práctica sencilla es para ver el comportamiento de Spring con instancias d
 - Se pueden importar las librerias añadiendo Graddle, Maven o lo que consideres oportuno pero hay que añadirlas. 
 - Segun el compilador que uses te puede pedir adicionalmente que importes la libreria de apache commons o saltara error de compilacion.
 
-De momento eso es todo, a **testear.**
+Se ha solucionado en este commit el problema de instanciacion gracias a la anotacion **@Scope**, que le permite al Framework crear mas de una instancia de clase.
+Si quieres ver el problema que surge con las instanciaciones de una unica clase vuelve al commit anterior.
+
+**Este programa solo ha sido creado para un testing de problema que puede surgir con el Framework Spring, tenerlo en cuenta en el desarrollo** 
+
+De momento eso es todo, a **testear.**.
